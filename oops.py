@@ -281,7 +281,7 @@ print(obj.c)
 print(obj.d)
 print(obj.x+obj.y)'''
 #operator overloading
-class A:
+'''class A:
     def __init__(self,x):
         self.x=x
     def __add__(self,other):
@@ -296,7 +296,7 @@ obj1=A(10)
 obj2=A(20)
 print(obj1.x+obj2.x)
 print(obj1<obj2)
-
+'''
 '''class A:
     def __init__(self,x,y):
         self.x=x
